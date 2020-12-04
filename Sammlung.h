@@ -6,15 +6,17 @@
 #define AUFGABE9_3_SAMMLUNG_H
 #include "Schüler.h"
 #include "Uni.h"
+using namespace std;
 
 class Sammlung {
-    vector<Student> studentlist;
-    vector<Kurs> kursliste;
+    unordered_map<int,Student>studentlist;
+    unordered_map<int,Kurs> kursliste;
 
 public:
     void add_student();
     void add_kurs();
     void add_results();
+    void testausgabe();
 
 };
 
