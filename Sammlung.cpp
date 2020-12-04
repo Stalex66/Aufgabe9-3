@@ -14,10 +14,10 @@ void Sammlung::add_student(){
     cout << "Enter ID, name and matrikelnummer";
     int a;
     string b;
-    int c;
+    string c;
     cin >> a >> b >> c;
     Student  newstudent{b,c};
-    studentlist[a] = newstudent;
+    studentlist.insert_or_assign(a,newstudent);
 
 };
 // void Sammlung::add_kurs(){};

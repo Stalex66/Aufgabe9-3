@@ -11,7 +11,7 @@ using namespace std;
 
 class Student {
     int index;
-    int matrikelnummer;
+    string matrikelnummer;
     string name;
     unordered_map<int,int> noten{}; // Kurs, Note
 
@@ -19,7 +19,7 @@ class Student {
 
 public:
     void ausgabe_student();
-    Student(string name, int matrikelnummer): name{name}, matrikelnummer{matrikelnummer}, index{id_help2}  {id_help2 +=1;}
+    Student(string name, string matrikelnummer): name{name}, matrikelnummer{matrikelnummer}, index{id_help2}  {id_help2 +=1;}
 };
 
 
