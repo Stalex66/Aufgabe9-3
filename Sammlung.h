@@ -14,6 +14,7 @@ class Sammlung {
 public:
     void add_student();
     void add_kurs();
+    void add_results();
 
 };
 

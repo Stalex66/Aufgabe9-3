@@ -8,7 +8,10 @@
 #include <string>
 using namespace std;
 
-//void Uni::add_students(vector<Student>& studentlist){
+void Uni::add_students(vector<Student> studentlist){
+    this.studentlist = studentlist;
+
+}
     int Kurs::id_help = 0;
     void Kurs::ausgabe() {
         cout << kurs_id << "\n" << name << "\n";

@@ -14,4 +14,8 @@ void Sammlung::add_student(){
 };
 void Sammlung::add_kurs(){
 
+void Sammlung::add_results() {
+
+}
+
 };

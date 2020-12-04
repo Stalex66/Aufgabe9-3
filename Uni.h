@@ -19,7 +19,7 @@ class Kurs{
 
 public:
     Kurs(string kursname): name{kursname}, kurs_id{id_help++} {}
-    // void add_student(vector<Student>& studentlist)
+    void add_student(vector<Student> studentlist)
     void ausgabe();
 };
 
