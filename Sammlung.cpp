@@ -20,7 +20,23 @@ void Sammlung::add_student(){
     studentlist.insert_or_assign(a,newstudent);
 
 };
-// void Sammlung::add_kurs(){};
+void Sammlung::add_kurs(){
+    cout << "Enter course name";
+    string a;
+    cin >> a;
+    Kurs  newkurs{a};
+    kursliste.insert_or_assign(a);
+}
+void Sammlung::add_grade(){
+    cout << "Please enter the course id, student id and grade\n";
+    int a;
+    string b;
+    int c;
+    cin >> a >> b >> c;
+    studentlist.
+
+
+}
 
 /*void Sammlung::add_results() {
     cout << "Enter student id, you want to add results for\n";

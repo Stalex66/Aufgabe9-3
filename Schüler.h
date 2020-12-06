@@ -20,6 +20,7 @@ class Student {
 public:
     void ausgabe_student();
     Student(string name, string matrikelnummer): name{name}, matrikelnummer{matrikelnummer}, index{id_help2}  {id_help2 +=1;}
+    void add_grade(int kurs, int note);
 };
 
 
