@@ -14,7 +14,7 @@ void Student::add_grade(int kurs, int note){
 
 };
 void grades_out(int course){
-    cout << name << note.at(course);
+    cout << name << noten.at(course);
 
 
 }

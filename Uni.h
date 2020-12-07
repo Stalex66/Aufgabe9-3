@@ -22,11 +22,10 @@ public:
     void add_student(Student& student);
     void ausgabe();
     Kurs operator<<(){
-        for(const auto& v : studentlist){
+        for(auto& v : studentlist){
             v.grades_out(kurs_id);
         }
 
-    }
 
 };
 
