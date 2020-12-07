@@ -21,6 +21,13 @@ public:
     Kurs(string kursname): name{kursname}, kurs_id{id_help++} {}
     void add_student(Student& student);
     void ausgabe();
+    Kurs operator<<(){
+        for(const auto& v : studentlist){
+            v.grades_out(kurs_id);
+        }
+
+    }
+
 };
 
 

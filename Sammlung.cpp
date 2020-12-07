@@ -33,7 +33,7 @@ void Sammlung::add_grade(){
     string b;
     int c;
     cin >> a >> b >> c;
-    studentlist.
+    studentlist.at(b).add_grade(a,c);
 
 
 }

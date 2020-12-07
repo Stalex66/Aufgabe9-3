@@ -13,6 +13,10 @@ void Student::add_grade(int kurs, int note){
     noten.insert_or_assign(kurs,note);
 
 };
+void grades_out(int course){
+    cout << name << note.at(course);
 
+
+}
 int Student::id_help2=0;
 
